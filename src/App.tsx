@@ -96,7 +96,7 @@ export default function App() {
               Ver productos
             </a>
             <a href="#por-que" className="w-full px-6 py-3 rounded-xl border border-white/20 text-white/90 hover:bg-white/5 text-center">
-              Por qué WrapperCube
+              Por qué Wrapec
             </a>
           </div>
 
@@ -120,7 +120,7 @@ export default function App() {
       <section id="por-que" className="border-t border-white/10" style={{ backgroundColor: 'var(--petroleum-900)' }}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 sm:py-16 grid md:grid-cols-2 gap-8 sm:gap-10 items-start">
           <div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">El estudio detrás de los wrappers</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">El estudio detrás de los wraps</h2>
             <p className="mt-3 sm:mt-4 text-white/80 text-base sm:text-lg">
               Nuestra filosofía: todo proceso que pueda automatizarse, puede ser mejorado con Inteligencia Artificial.
               Creamos sistemas que aprenden, escalan y se adaptan a tu negocio.
@@ -192,11 +192,11 @@ export default function App() {
             {/* Próximo wrapper */}
             <article className="p-5 sm:p-6 rounded-3xl border border-white/10 bg-white/5">
               <div className="flex items-center justify-between">
-                <h3 className="text-xl sm:text-2xl font-bold text-white">Siguiente wrapper</h3>
+                <h3 className="text-xl sm:text-2xl font-bold text-white">Siguiente wrap</h3>
                 <span className="px-3 py-1 rounded-full text-xs bg-white/10 text-white/80 border border-white/20">En research</span>
               </div>
               <p className="mt-2 text-white/75 text-sm sm:text-base">
-Estamos validando el siguiente wrapper enfocado en pagos, identidad digital y analítica para negocios. Si eres contribuyente o pyme, queremos escuchar tus necesidades.              </p>
+Estamos validando el siguiente wrap enfocado en pagos, identidad digital y analítica para negocios. Si eres contribuyente o pyme, queremos escuchar tus necesidades.              </p>
               <div className="mt-6">
                 <a className="w-full sm:w-auto px-5 py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold shadow btn-shine inline-flex items-center justify-center" href="#contacto">
                   Propón un problema
@@ -212,7 +212,7 @@ Estamos validando el siguiente wrapper enfocado en pagos, identidad digital y an
         <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 sm:py-16">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white text-center">Vertical: Contribuyentes</h2>
           <p className="text-white/80 text-center mt-3 max-w-3xl mx-auto text-sm sm:text-base">
-            Además de desarrollar software propio, en WrapperCube ofrecemos soluciones y servicios para contribuyentes y contadores que buscan simplificar su gestión diaria.
+            Además de desarrollar software propio, en Wrapec ofrecemos soluciones y servicios para contribuyentes y contadores que buscan simplificar su gestión diaria.
           </p>
 
           <div className="mt-8 sm:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
@@ -230,7 +230,7 @@ Estamos validando el siguiente wrapper enfocado en pagos, identidad digital y an
         <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 sm:py-16">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white text-center">Nuestro equipo</h2>
           <p className="text-white/75 text-center mt-2 max-w-3xl mx-auto text-sm sm:text-base">
-            WrapperCube nació de una convicción: la tecnología debe simplificar lo complejo. Unimos experiencia en software y datos para crear soluciones confiables y de impacto.
+            Wrapec nació de una convicción: la tecnología debe simplificar lo complejo. Unimos experiencia en software y datos para crear soluciones confiables y de impacto.
           </p>
 
           <div className="mt-8 sm:mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
@@ -257,7 +257,7 @@ Estamos validando el siguiente wrapper enfocado en pagos, identidad digital y an
       {/* Footer */}
       <footer className="border-t border-white/10" style={{ backgroundColor: 'var(--petroleum)' }}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 py-8 text-sm text-white/60 flex flex-col md:flex-row justify-between gap-3">
-          <span>© {new Date().getFullYear()} WrapperCube</span>
+          <span>© {new Date().getFullYear()} Wrapec</span>
           <div className="flex flex-wrap gap-x-4 gap-y-2">
             <a className="hover:text-white" href="#founders">Nuestro Equipo</a>
             <a className="hover:text-white" href="#productos">Productos</a>

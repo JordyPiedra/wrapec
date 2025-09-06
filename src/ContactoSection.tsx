@@ -92,11 +92,6 @@ export default function ContactoSection() {
             <p>Recibimos tu mensaje y te contactaremos pronto.</p>
           </div>
         )}
-
-        <div className="mt-6 text-white/70 text-sm">
-          También en LinkedIn:{" "}
-          <a className="text-cyan-300 hover:underline" href="https://www.linkedin.com/company/wrappercube">WrapperCube</a>
-        </div>
       </div>
     </section>
   );
