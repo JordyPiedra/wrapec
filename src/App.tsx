@@ -270,7 +270,7 @@ Estamos validando el siguiente wrapper enfocado en pagos, identidad digital y an
 }
 
 /* Componentes auxiliares */
-function Metric({ k, v }) {
+function Metric({ k, v }:{ k: string; v: string }) {
   return (
     <div className="p-4 rounded-2xl bg-white/5 border border-white/10">
       <div className="text-white/70 text-xs">{k}</div>
@@ -285,7 +285,7 @@ function Check() {
     </svg>
   );
 }
-function FounderCard({ name, role, bio, hrefLinkedin }) {
+function FounderCard({ name, role, bio, hrefLinkedin }:{ name: string; role: string; bio: string; hrefLinkedin: string }) {
   return (
     <article className="p-5 sm:p-6 rounded-3xl border border-white/10 bg-white/5 flex items-start gap-4">
       <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-br from-cyan-400 to-blue-500 shrink-0 grid place-items-center text-white font-bold">
@@ -302,7 +302,7 @@ function FounderCard({ name, role, bio, hrefLinkedin }) {
     </article>
   );
 }
-function ServiceCard({ title, desc }) {
+function ServiceCard({ title, desc }:{ title: string; desc: string }) {
   return (
     <div className="p-5 sm:p-6 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition">
       <h3 className="text-base sm:text-lg font-semibold text-cyan-300">{title}</h3>
