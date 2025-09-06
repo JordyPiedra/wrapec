@@ -1,0 +1,18 @@
+<svg width="180" height="44" viewBox="0 0 540 132" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ícono: cubo envuelto -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"></stop>
+      <stop offset="100%" stop-color="#60A5FA"></stop>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8,8)">
+    <rect x="0" y="0" rx="12" ry="12" width="64" height="64" fill="url(#g)"></rect>
+    <path d="M12 24l20 10 20-10M32 34v20" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <!-- Wordmark -->
+  <g transform="translate(90,18)" fill="#FFFFFF">
+    <text x="0" y="30" font-family="Inter, ui-sans-serif, system-ui" font-size="28" font-weight="800" letter-spacing="0.5">WrapperCube</text>
+    <text x="0" y="56" font-family="Inter, ui-sans-serif, system-ui" font-size="14" opacity="0.7">Encubamos productos. Envolvemos lo complejo.</text>
+  </g>
+</svg>

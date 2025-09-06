@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="64" viewBox="0 0 280 64" fill="none">
+  <!-- Cubo que forma la W -->
+  <g transform="translate(0,0)">
+    <path d="M4 20 L14 44 L24 20 L34 44 L44 20" stroke="url(#grad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+
+  <!-- Texto WrapperCube -->
+  <text x="60" y="40" font-family="Inter, sans-serif" font-weight="800" font-size="28" fill="white">
+    rapperCube
+  </text>
+
+  <!-- Gradiente -->
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"></stop>
+      <stop offset="100%" stop-color="#2563EB"></stop>
+    </linearGradient>
+  </defs>
+</svg>

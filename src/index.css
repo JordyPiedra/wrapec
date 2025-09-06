@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Variables de color ===== */
+:root {
+  --petroleum: #0F2C3F;      /* base */
+  --petroleum-700: #13354B;  /* variantes */
+  --petroleum-900: #0B2230;
+  /* Offset para header sticky (ajusta si cambias el alto del header) */
+  scroll-padding-top: 72px;
+}
+
+/* ===== Reset + base ===== */
+html, body, #root { height:100%; }
+html { scroll-behavior: smooth; }
+body {
+  /* Usa el fondo petróleo para evitar "flash" blanco en mobile */
+  background: #F9FAFB;
+  color: #0f172a; /* text-slate-900 (tu contenido principal ya usa clases Tailwind) */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Selección de texto */
+::selection { background: rgba(34, 211, 238, 0.25); }
+
+/* ===== Animaciones personalizadas ===== */
+@keyframes float {
+  0% { transform: translateY(0px) }
+  50% { transform: translateY(-10px) }
+  100% { transform: translateY(0px) }
+}
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(8px) }
+  100% { opacity: 1; transform: translateY(0) }
+}
+@keyframes shine {
+  0% { background-position: -200% 0 }
+  100% { background-position: 200% 0 }
+}
+
+.anim-float { animation: float 8s ease-in-out infinite }
+.anim-fade-up { animation: fadeUp .8s ease-out both }
+
+/* Tenías estas clases como -del-, pero en JSX usas anim-delay-1/2/3.
+   Dejamos ambas por compatibilidad. */
+.anim-fade-up-del-1, .anim-delay-1 { animation-delay: .15s }
+.anim-fade-up-del-2, .anim-delay-2 { animation-delay: .30s }
+.anim-fade-up-del-3, .anim-delay-3 { animation-delay: .45s }
+
+.btn-shine {
+  background-image: linear-gradient(90deg, rgba(255,255,255,.15) 0%, rgba(255,255,255,0) 30%, rgba(255,255,255,.15) 60%);
+  background-size: 200% 100%;
+  animation: shine 2.8s linear infinite;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #6EE7F9, #22D3EE, #60A5FA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== Accesibilidad: reduce motion ===== */
+@media (prefers-reduced-motion: reduce) {
+  .anim-float, .anim-fade-up, .btn-shine { animation: none !important; }
+  html { scroll-behavior: auto; }
+}
+
+/* ===== Ajustes responsive útiles ===== */
+/* Aumenta el offset para anclas en desktop (header un poco más alto) */
+@media (min-width: 768px) {
+  :root { scroll-padding-top: 88px; }
+}
