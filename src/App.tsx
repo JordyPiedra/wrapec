@@ -164,11 +164,11 @@ export default function App() {
             {/* Declarify */}
             <article className="p-5 sm:p-6 rounded-3xl border border-white/10 bg-white/5">
               <div className="flex items-center justify-between">
-                <h3 className="text-xl sm:text-2xl font-bold text-cyan-300">Declarify</h3>
+                <h3 className="text-xl sm:text-2xl font-bold text-cyan-300">ContaGo</h3>
                 <span className="px-3 py-1 rounded-full text-xs bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">Activo</span>
               </div>
               <p className="mt-2 text-white/85 text-sm sm:text-base">
-                Declarify es nuestro primer producto: una herramienta que automatiza la gestión de gastos y declaraciones de impuestos en Ecuador.
+                ContaGo es nuestro primer producto: una herramienta que automatiza la gestión de gastos y declaraciones de impuestos en Ecuador.
                 Conecta con el SRI, clasifica gastos con IA y te entrega reportes listos para la acción.
               </p>
               <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
